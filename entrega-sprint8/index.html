@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <title>Loja Virtual</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoodWear</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script defer src="js/arquivo.js"></script>
+         <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/script.js"></script>
     </head>
     <body>
         <header>
+        <div class="Container">
         <div class="logo">
-            <img class="logo-chist" src="css/logo.jpg" alt="" ></img>
+            <img class="logo-chist" src="css/logo.jpg" alt="hal 9000" ></img>
         </div>
-        <ul class="head">
-            <lo class="nav-item">
-                <h5 class="nav-link" aria-current="page" >   Todos    Acessórios      Tenis      Camisetas   </h5>
-            </lo>
-        </ul>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"> Todos </a></li>
+                <li><a href="#"> Acessórios </a></li>
+                <li><a href="#"> Tenis </a></li>
+                <li><a href="#">  Saltos </a></li>
+            </ul>
+        </nav>
     </header>
-        <main>
-            <section class="content-intf"></section>
-            <div class="add">
-            <aside class="content-add"></aside>
-            <header><h2 class="cab">Carrinho de compras</h2></header>
-            <div class="addcarro">
-                
+    <main>
+        <body>
+            <div id="product-list"></div>
+            <div id="cart">
+                <h2>Carrinho de Compras</h2>
+                <p id="cart-list"></p>
             </div>
-            </div>
+
+            </aside>
     </body>
+</main>
 </html>
